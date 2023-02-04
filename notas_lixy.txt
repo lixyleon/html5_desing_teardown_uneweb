@@ -1,0 +1,25 @@
+﻿HTML5
+
+<a></a> etiqueta
+<h1></h1> etiqueta del 1 al 6
+atributos
+href=" "
+src =" "
+alt
+
+class =" " se utilizan para colocar estilos. en archivos con extension .css
+id =" " se utilizan para colocar comportamientos o eventos. javascrip
+
+librerias descargadas
+localhost 127.0.0.1:80
+<!-- para comentarios>
+
+los elementos tienen paddin y border, exterior margin no pertene al elemento
+
+En .css 
+el class se llama con . y el id con #
+
+solo los estilos con las clases
+
+color aditivo
+color sustractivo
