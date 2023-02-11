@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@1,500&family=Nunito:wght@900&family=Playfair+Display:ital@1&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -21,10 +21,121 @@
     align-items: center;
 }
 
+.navbar-elements {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    color:white;
+}
+
+.navbar-element-7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.search-inpunt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.nunito-font-family {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+}
+.Kufam-font-family{
+    font-family: 'Kufam', sans-serif;
+}
+
+.Playfair-font-family{
+    font-family: 'Playfair Display', serif;
+}
+
+.border-none {
+    border:none;
+}
+
+.border-none:focus {
+    outline:none;
+}
+
+.position-absolute{
+    position: absolute;
+    width: 100%;
+}
+
+.title-page{
+    text-align: center;
+    width: 100%;
+    font-size:2.25rem;
+}
+
+.title-text{
+    line-height: 0.125rem;
+    display: inline;
+    position: relative;
+    font-weight: bold;
+    top: 1.5em;
+    color:white;
+}
+
+.title-page-icon-button{
+    display: flex;
+    position: absolute;
+    left:73rem;
+    top:1.5rem;
+}
+
+.navbar-elements-ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-element-a {
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar-element:hover {
+    background-color: #333;
+    border-radius: 0.5rem;
+}
+.text-more-catmenu {
+    margin-right: 0.4rem;
+    text-decoration: none;
+    color:white;
+}
+.search-icon-margin{
+    margin-right: 0.5rem;
+}
+
+.catmenu {
+    min-width: 1.5rem;
+}
+
+body{
+    width: 100%;
+}
+
 .logo-app
 {
 width: 3.35rem;
 margin: 1rem 0;
+}
+
+.navbar-element {
+    padding: 1rem 1.2rem;
+    margin-right: 1rem;
 }
 
 /*
