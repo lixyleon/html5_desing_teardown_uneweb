@@ -1,0 +1,31 @@
+
+#include <stdio.h>
+
+int main()
+{
+   int i; int a[3]={17,8,30}; int b[3]= {99,16,8}; int a_count=0; int b_count=0;
+    
+      {
+        for (i=0; i < 3; i++)
+        {
+          if ( a[i] > b[i] )
+          {
+              a_count+=1;
+          }
+          if ( a[i] < b[i] )
+          {
+              b_count+=1;
+          }
+        }  
+        if (a_count > b_count )
+        {printf( "%i %i",a_count,b_count);
+        }
+        
+        else  
+        {printf( "%i %i",b_count,a_count);
+        }
+    }
+
+
+    return 0;
+}
