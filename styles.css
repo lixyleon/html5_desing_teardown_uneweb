@@ -153,7 +153,7 @@ margin: 1rem 0;
 }
 
 .padding-top-8rem{
-    padding-top: 10rem;
+    padding-top: 8rem;
 
 }
 
@@ -222,7 +222,7 @@ margin: 1rem 0;
 }
 
 .lastest-articles{
-    margin: 6rem;
+    margin: 6rem auto;
     border-bottom:10px solid gray;
     text-align: center;
     width: max-content;
@@ -231,23 +231,73 @@ margin: 1rem 0;
 .paragraph-format{
     line-height: 2rem;
     letter-spacing: 0.09rem;
-    margin:auto;
+    
 }
 
-/*
-div {
+
+.first-card-eighth{
     display: flex;
+    background-color: #999;
+    padding: 2rem;
+      
+}
+.sons-seconds-card-eighth{
+    display: flex;
+    flex-grow: 1;
+    background-color: #ccc;
+    padding: 2rem;
+    
 }
 
-h1{
-    margin-left:1rem;
-}
-div h1 {
-    color: red;
+.margin-1rem{
+    margin: 1rem;
 }
 
-h2,h3 {
-    color: green;
-    }
-*/
+.flex-grow-7{
+    flex-grow: 7;
+}
 
+.seventh-section {
+    display: flex;
+    background-color: #333;
+    padding: 2rem;
+    color: white;
+}
+
+.sixth-section{
+    display:flex;
+}
+
+.first-part-sixth-section{
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: #ddd;
+    flex-grow: 1;
+}
+
+.firts-important-card-sixth-section{
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 32px;
+    background-color: #666;
+    flex-grow: 1;
+    align-items: center;
+    text-align: center; 
+ 
+}
+.footer{
+    display: flex;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    align-items: center;
+    text-align: center; 
+}
+.width-footer-pictures{
+    width: 5rem;
+    margin: -4rem 4rem 4rem 4rem;
+    
+}
